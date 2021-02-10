@@ -7,7 +7,7 @@ module.exports = {
   variants: {
     extend: {
 	transform: ['hover', 'focus']
-    },
+    }
   },
-  plugins: [],
+  plugins: [require('tailwindcss-scroll-snap')]
 }
